@@ -31,7 +31,7 @@ The dumper generates output in multiple formats for convenient use in different 
 
    * Example: `CreateRemoteThread + LoadLibraryW`
    * Or use any existing DLL injector
-4. Ensure the game is fully initialized (main menu or in-game — both are fine).
+4. Ensure the game is fully initialized (main menu or in-game - both are fine).
 
 After successful injection:
 
@@ -63,12 +63,12 @@ The dumper attaches to the Mono runtime used by the Unity engine and:
 
 The dumper generates the following files:
 
-* `sor_dump.txt` — human-readable dump
-* `sor_dump.json` — structured data
-* `sor_offsets.hpp` — C++ header
-* `sor_offsets.zig` — Zig definitions
-* `sor_offsets.rs` — Rust module
-* `SorOffsets.cs` — C# class
+* `sor_dump.txt` - human-readable dump
+* `sor_dump.json` - structured data
+* `sor_offsets.hpp` - C++ header
+* `sor_offsets.zig` - Zig definitions
+* `sor_offsets.rs` - Rust module
+* `SorOffsets.cs` - C# class
 
 ## Requirements (Runtime)
 
